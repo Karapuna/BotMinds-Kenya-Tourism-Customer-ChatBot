@@ -48,11 +48,14 @@ nlu:
     - What options are there for enjoying the magnificent landscapes of the Rift Valley
     - What are some ways to explore the breathtaking landscapes of the Rift Valley
     
-- intent:
-
-
-
-
+- intent: FindFoodNairobi
+  examples: |
+    - Recommend restaurants in Nairobi.
+    - Where can I try authentic Kenyan food in Nairobi?
+    - What are the top dining spots in the capital?
+    - Tell me about Nairobi's street food.
+    - I'm looking for vegetarian restaurants in Nairobi.
+    - Recommend seafood restaurants in Nairobi.
 
 - intent: goodbye
   examples: |
