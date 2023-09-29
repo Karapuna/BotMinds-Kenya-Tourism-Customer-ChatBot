@@ -6,6 +6,15 @@ intents:
   - find_national_park
   - top_destinations
   - ask_rift_valley
+  - FindFoodNairobi
+  - FindFoodMombasa
+  - FindFoodKisumu
+  - FindHighlyRankedRestaurants
+  - FindIndianCuisine
+  - FindFoodMaasaiMara
+  - FindSpecificFood
+  - FindHiddenGemDining
+  - EnjoyMeal
   - affirm
   - deny
   - mood_great
