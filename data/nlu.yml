@@ -57,6 +57,68 @@ nlu:
     - I'm looking for vegetarian restaurants in Nairobi.
     - Recommend seafood restaurants in Nairobi.
 
+- intent: FindFoodMombasa
+  examples: |
+    - What are the best places to eat in Mombasa?
+    - Recommend seafood restaurants in Mombasa.
+    - Where can I try Swahili cuisine in Mombasa?
+    - Tell me about Mombasa's local dishes.
+    - What is the popular dish in Mombasa?
+
+- intent: FindFoodKisumu
+  examples: |
+   - Where can I eat fish in Kisumu?
+   - Recommend lakeside restaurants in Kisumu.
+   - What are the must-try dishes in Kisumu?
+   - Tell me about Kisumu's fish specialties.
+
+- intent: FindIndianCuisine
+  examples: |
+   - Where can I find Indian restaurants in Kenya?
+   - Recommend Indian cuisine spots in Nairobi.
+   - Tell me about the best places for Indian food in Mombasa.
+   - Show me restaurants that serve Indian dishes in Kenya.
+
+- intent: FindHighlyRankedRestaurants
+  examples: |
+   - Recommend highly-ranked restaurants in Kenya.
+   - Tell me about the top-rated dining spots in Nairobi.
+   - Where can I find restaurants with excellent reviews in Mombasa?
+   - Show me the best places to eat in Kenya according to reviews.
+   - I'm looking for top-rated restaurants in Eldoret.
+
+- intent: FindFoodMaasaiMara
+  examples: |
+   - Where can I dine in Maasai Mara National Reserve?
+   - Recommend restaurants in Maasai Mara.
+   - What are the dining options in Maasai Mara?
+   - Tell me about dining in the Maasai Mara lodge.
+   - Where can I enjoy nyama choma (grilled meat) in Maasai Mara?
+
+- intent: FindSpecificFood
+  examples: |
+   - Where can I try nyama choma (grilled meat) in Kenya?
+   - Tell me about ugali and sukuma wiki.
+   - I want to taste chapati in Nairobi.
+   - Recommend places for samosas in Mombasa.
+   - What is Kenya's staple food? 
+
+- intent: FindHiddenGemDining
+  examples: |
+   - Recommend hidden gem restaurants in Kenya.
+   - Tell me about underrated dining spots in Nairobi.
+   - Where can I find hidden gem street food vendors?
+   - Show me lesser-known food joints in Mombasa.
+   - I want to explore hidden gem cafes in Kenya.
+
+- intent: EnjoyMeal
+  examples: |
+    - Enjoy your meal.
+    - Have a great meal.
+    - Bon appétit!
+    - Hope you enjoy your food.
+    - Wishing you a delicious meal.
+
 - intent: goodbye
   examples: |
     - cu
