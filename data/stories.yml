@@ -10,7 +10,7 @@ stories:
   - action: utter_happy
 
 
-- story: visit national parks path
+- story: visit national parks path 1
   steps:
   - intent: greet
   - action: utter_greet
@@ -18,21 +18,116 @@ stories:
   - action: utter_find_national_park
 
 
-- story: top destinations path
+- story: top destinations path 2
   steps:
   - intent: greet
   - action: utter_greet
   - intent: top_destinations
   - action: utter_top_destinations
 
-- story: rift_valley
+- story: rift_valley path 3
   steps:
     - intent: greet
     - action: utter_greet
     - intent: ask_rift_valley
     - action: utter_ask_rift_valley
 
-- story: sad path 1
+- story: Where can i Dine in Nairobi path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindFoodNairobi
+  - action: utter_FindFoodNairobi
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: FindSpecificFood
+  - action: utter_FindSpecificFood
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Recommend Restaurants in Mombasa path 5
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodMombasa
+    - action: utter_FindFoodMombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Where can i get Swahili Food in Mombasa path 6
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodMombasa
+    - action: utter_FindFoodMombasa
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Where can i get Fish in Kisumu path 7
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindFoodKisumu
+    - action: utter_FindFoodKisumu
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Recommend restaurants that serve Indian dishes in Kenya path 8
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindIndianCuisine
+    - action: utter_FindIndianCuisine
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Recommend highly-ranked restaurants in Kenya path 9
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: FindHighlyRankedRestaurants
+    - action: utter_FindHighlyRankedRestaurants
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_EnjoyMeal
+
+- story: Find Dining options in Maasai Mara path 10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindFoodMaasaiMara
+  - action: utter_FindFoodMaasaiMara
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Hidden Cafes in Nairobi path 11
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindHiddenGemDining
+  - action: utter_FindHiddenGemDining
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Discover Hidden Cafes in Mombasa path 12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: FindHiddenGemDining
+  - action: utter_FindHiddenGemDining
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: sad path 4
   steps:
   - intent: greet
   - action: utter_greet
@@ -42,7 +137,7 @@ stories:
   - intent: affirm
   - action: utter_happy
 
-- story: sad path 2
+- story: sad path 5
   steps:
   - intent: greet
   - action: utter_greet
