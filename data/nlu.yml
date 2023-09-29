@@ -1,0 +1,128 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - greetings
+    - hae
+    - what's poppin
+    - Jambo
+    - hallo
+    - how are you
+    - salut
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: find_national_park
+  examples: |
+    - which is the best national park to visit in Kenya
+    - recommend national parks to visit in Kenya
+    - best game reserves in Kenya
+
+- intent: top_destinations
+  examples: |
+    - What are the most popular tourist spots in Kenya
+    - Can you list the must-visit places for tourists in Kenya
+    - Which places should I visit as a tourist in Kenya
+    - What are Kenya's top attractions for travelers
+    - Tell me about the best places to see in Kenya as a tourist
+    - I'm planning a trip to Kenya; where should I go to experience the best of the country
+    - Can you suggest the top vacation spots in Kenya
+
+- intent: ask_rift_valley
+  examples: |
+    - How can I witness the stunning landscapes of the Rift Valley
+    - What are the ways to encounter the mesmerizing scenery of the Rift Valley
+    - How can I take in the awe-inspiring vistas of the Rift Valley
+    - What options are there for enjoying the magnificent landscapes of the Rift Valley
+    - What are some ways to explore the breathtaking landscapes of the Rift Valley
+    
+- intent:
+
+
+
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

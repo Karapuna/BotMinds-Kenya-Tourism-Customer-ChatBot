@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+
+- story: visit national parks path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: find_national_park
+  - action: utter_find_national_park
+
+
+- story: top destinations path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: top_destinations
+  - action: utter_top_destinations
+
+- story: rift_valley
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_rift_valley
+    - action: utter_ask_rift_valley
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

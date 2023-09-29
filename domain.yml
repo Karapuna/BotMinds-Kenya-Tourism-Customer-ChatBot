@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - find_national_park
+  - top_destinations
+  - ask_rift_valley
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hey! My name is SafiriBot. I'm here to provide you with the best insights about our beloved Kenya! How may I be of help?"
+
+  utter_find_national_park:
+  - text: "Kenya offers a wealth of breathtaking tourist attractions. Some of the top places to visit include the Maasai Mara National Reserve, Amboseli National Park, Nairobi National Park, Tsavo East and West National Parks, and the Great Rift Valley."
+  utter_top_destinations:
+  - text: |
+        Maasai Mara National Reserve: Known for its incredible wildlife, especially during the Great Migration, the Maasai Mara is one of the most famous safari destinations in Africa. Visitors can see the Big Five (lion, elephant, buffalo, leopard, and rhinoceros) and witness the annual wildebeest migration
+        
+        Amboseli National Park: Famous for its large herds of elephants and its stunning views of Mount Kilimanjaro, Amboseli National Park is a top destination for wildlife enthusiasts and photographers
+        
+        Diani Beach: Located on the coast of Kenya, Diani Beach offers stunning white-sand beaches and clear waters. It's a popular destination for relaxation, water sports, and beachfront resorts
+        
+        Great Rift Valley: The Great Rift Valley offers breathtaking views, including lakes like Naivasha, Nakuru, and Elementaita. These areas are known for birdwatching, hiking, and boat trips.
+        
+        Lamu Island: Lamu is a UNESCO World Heritage Site known for its well-preserved Swahili architecture, narrow winding streets, and rich cultural heritage. It's a unique destination for history and culture lovers
+        
+        These are just but a few examples of the intriguing places you should visit in Kenya!!!
+  utter_ask_rift_valley:
+    - text: |
+        The landscapes of the Rift Valley in Kenya are incredibly diverse and captivating 😄
+        
+        These are some of the beautiful landscapes to look out for;
+        
+        Lakes: The Rift Valley is dotted with numerous lakes, each with its own unique charm. Lake Naivasha, Lake Nakuru, Lake Baringo, and Lake Bogoria are among the most well-known
+        
+        Volcanic Craters: You can explore volcanic craters such as Mount Longonot and Menengai Crater
+        
+        Cultural Landscapes: The Rift Valley is also home to various cultural landscapes, with Maasai villages and traditional homesteads interspersed among the natural beauty. The juxtaposition of traditional culture against the backdrop of the Rift Valley adds to the overall charm.
+        
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
