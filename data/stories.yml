@@ -127,6 +127,16 @@ stories:
   - intent: affirm
   - action: utter_EnjoyMeal
 
+- story: Safari Destination
+  steps:
+    - intent : greet
+    - action: utter_greet
+    - intent: ask_safari_destination
+    - action: utter_ask_safari_destination
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_safari
+
 - story: sad path 4
   steps:
   - intent: greet

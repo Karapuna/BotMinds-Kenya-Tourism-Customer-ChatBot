@@ -47,7 +47,16 @@ nlu:
     - How can I take in the awe-inspiring vistas of the Rift Valley
     - What options are there for enjoying the magnificent landscapes of the Rift Valley
     - What are some ways to explore the breathtaking landscapes of the Rift Valley
+
+- intent: ask_safari_destination
+  examples: |
+    - What's the top destination for a safari experience in Kenya
+    - Where should I head for the ultimate safari adventure in Kenya
+    - Which location offers the best safari opportunities in Kenya
+    - Tell me about the prime spot to embark on a safari in Kenya
+    - Where can I find the most rewarding safari experience in Kenya
     
+
 - intent: FindFoodNairobi
   examples: |
     - Recommend restaurants in Nairobi.

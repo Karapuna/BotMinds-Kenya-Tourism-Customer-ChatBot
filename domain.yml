@@ -6,6 +6,7 @@ intents:
   - find_national_park
   - top_destinations
   - ask_rift_valley
+  - ask_safari_destination
   - FindFoodNairobi
   - FindFoodMombasa
   - FindFoodKisumu
@@ -51,7 +52,24 @@ responses:
         Volcanic Craters: You can explore volcanic craters such as Mount Longonot and Menengai Crater
         
         Cultural Landscapes: The Rift Valley is also home to various cultural landscapes, with Maasai villages and traditional homesteads interspersed among the natural beauty. The juxtaposition of traditional culture against the backdrop of the Rift Valley adds to the overall charm.
+
+  utter_ask_safari_destination:
+    - text: |
+        Kenya offers the best safari experiences. Here are some safari destination examples that will leave you with a euphoric feeling ☺️
         
+        Maasai Mara National Reserve: Known for the Great Migration of wildebeest and an abundance of wildlife.
+        
+        Amboseli National Park: Famous for its large elephant herds and stunning views of Mount Kilimanjaro.
+        
+        Tsavo National Park: The largest national park in Kenya, divided into Tsavo East and Tsavo West, offering diverse landscapes and wildlife.
+        
+        Samburu National Reserve: Home to unique wildlife species like the reticulated giraffe and Grevy's zebra.
+        
+        Lake Nakuru National Park: Famous for its flamingo population and rhino conservation efforts.
+
+  utter_enjoy_safari:
+    - text:
+        "Enjoy your safari adventure to the fullest! May you encounter amazing wildlife, breathtaking landscapes, and create unforgettable memories. Stay safe and soak in every moment of this incredible experience." 🌿🦓🦒🐘🌞
   utter_FindFoodNairobi:
   - text: "Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
 
