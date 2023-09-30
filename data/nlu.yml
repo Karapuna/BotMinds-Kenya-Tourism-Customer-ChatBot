@@ -55,7 +55,14 @@ nlu:
     - Which location offers the best safari opportunities in Kenya
     - Tell me about the prime spot to embark on a safari in Kenya
     - Where can I find the most rewarding safari experience in Kenya
-    
+- intent: ask_top_beach_destinations
+  examples: |
+    - What are the top beach destinations on the Kenyan coast
+    - What are the most popular beach getaways along the Kenyan coastline
+    - Which coastal destinations in Kenya are renowned for their beautiful beaches
+    - Can you list some of the top beach spots on Kenya's coast
+    - Which Kenyan coastal locations are famous for their stunning shorelines
+    - What are the prime beach destinations found on the Kenyan coastal region
 
 - intent: FindFoodNairobi
   examples: |
@@ -117,7 +124,8 @@ nlu:
    - Recommend hidden gem restaurants in Kenya.
    - Tell me about underrated dining spots in Nairobi.
    - Where can I find hidden gem street food vendors?
-   - Show me lesser-known food joints in Mombasa.
+   - Show me lesser
+    -known food joints in Mombasa.
    - I want to explore hidden gem cafes in Kenya.
 
 - intent: EnjoyMeal

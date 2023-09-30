@@ -7,6 +7,7 @@ intents:
   - top_destinations
   - ask_rift_valley
   - ask_safari_destination
+  - ask_top_beach_destinations
   - FindFoodNairobi
   - FindFoodMombasa
   - FindFoodKisumu
@@ -68,8 +69,24 @@ responses:
         Lake Nakuru National Park: Famous for its flamingo population and rhino conservation efforts.
 
   utter_enjoy_safari:
-    - text:
-        "Enjoy your safari adventure to the fullest! May you encounter amazing wildlife, breathtaking landscapes, and create unforgettable memories. Stay safe and soak in every moment of this incredible experience." 🌿🦓🦒🐘🌞
+    - text: "Enjoy your safari adventure to the fullest! May you encounter amazing wildlife, breathtaking landscapes, and create unforgettable memories. Stay safe and soak in every moment of this incredible experience.🌳🌞😃🐘"
+
+  utter_top_beach_destinations:
+    - text: |
+        Kenya's coastal gems beckon with their soft sands, azure waters, and the rhythmic whispers of the Indian Ocean, inviting travelers to a serene paradise where nature's artistry meets the warm embrace of the sun. Among these treasures, you'll find some of the top beach destinations on the Kenyan coast 🌴
+        
+        Diani Beach: Diani Beach, located near Mombasa, is renowned for its stunning white-sand beaches, crystal-clear waters, and a range of water sports. It's a popular spot for relaxation and beachfront resorts
+        
+        Watamu Beach: Watamu is known for its pristine beaches and vibrant marine life. It's a great place for snorkeling and scuba diving, with the Watamu Marine National Park protecting its coral reefs
+        
+        Malindi Beach: Malindi is a coastal town with beautiful beaches. It offers a mix of natural beauty, cultural attractions, and water activities
+        
+        Nyali Beach: Located in Mombasa, Nyali Beach is known for its soft sands and scenic beauty. It's a great place for beachcombing, swimming, and water sports
+
+  utter_enjoy_beach:
+    - text: "Enjoy every sun-kissed moment, every gentle wave, and the endless beauty of the beach. May your beach experience be filled with relaxation, joy, and unforgettable memories 🌴🌞"
+        
+
   utter_FindFoodNairobi:
   - text: "Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
 
@@ -203,6 +220,7 @@ responses:
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+
 
   utter_did_that_help:
   - text: "Did that help you?"

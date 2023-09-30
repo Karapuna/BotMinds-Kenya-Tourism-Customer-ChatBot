@@ -137,6 +137,16 @@ stories:
     - intent: affirm
     - action: utter_enjoy_safari
 
+- story: Beach Destination
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_beach_destinations
+    - action: utter_top_beach_destinations
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_beach
+
 - story: sad path 4
   steps:
   - intent: greet
