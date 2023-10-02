@@ -221,6 +221,27 @@ responses:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
+    utter_typical_weather:
+  - text: "During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu.Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers.In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic."
+
+  utter_weather_concerns:
+  - text: "When planning a trip to Kenya, it's crucial to consider weather-related factors. Kenya has two rainy seasons with heavy rainfall from March to May and October to December, potentially leading to flooding. The dry seasons are ideal for safaris but can be hot. Temperature variations exist by region and altitude. Malaria is a concern, so consult a healthcare professional and use mosquito repellent. Be aware of altitude sickness in high-altitude areas.Stay informed about travel advisories, water safety, and consider travel insurance for unexpected situations. Flexibility and preparedness are key to a safe and enjoyable trip to Kenya."
+
+  utter_pleasant_weather:
+  - text: "The best time to visit Kenya for pleasant weather and wildlife viewing depends on your preferences. The dry season from June to September is ideal for wildlife viewing, with cool, dry weather making animal sightings easier, including the Great Migration in the Maasai Mara.While the green season from October to November and March to May is wetter, it offers lush landscapes and excellent birdwatching. Coastal areas are great for beach vacations year-round. Consider your interests and book in advance for popular wildlife experiences."
+
+  utter_weather_variation:
+  - text: "The weather in coastal regions like Mombasa and inland areas like Nairobi varies significantly due to differences in their climate zones. Mombasa, located along the Indian Ocean, experiences a tropical climate with high humidity and relatively stable temperatures throughout the year.In contrast, Nairobi, being at a higher elevation, has a milder and more temperate climate with cooler nights.Nairobi's temperatures are generally cooler than Mombasa's, particularly during the evenings and early mornings. These variations make Nairobi more suitable for outdoor activities during the day while Mombasa's coastal climate offers a tropical beach experience."
+
+  utter_ask_destination_activities:
+  - text: "Kenya hosts a range of vibrant cultural festivals throughout the year, such as the Maasai Mara Cultural Festival, Lamu Cultural Festival, and the Great Rift Valley Cultural Festival. These events offer a fantastic opportunity to immerse yourself in the rich traditions and customs of various Kenyan communities. As a tourist, you are often welcome to participate in these festivals, where you can enjoy traditional dances, music, crafts, and even taste authentic Kenyan cuisine. Engaging in these local traditions and ceremonies can provide a deeper cultural experience and a chance to interact with the welcoming and diverse Kenyan communities. It's a great way to learn about the country's heritage and make lasting memories during your visit."
+
+  utter_coastal_activities:
+  - text: "Along the Kenyan coast, you can embark on unique boat trips and dhow cruises that offer a glimpse into the coastal culture and stunning marine life. Lamu and Malindi are popular starting points for these excursions, allowing you to sail on traditional dhows, explore ancient Swahili architecture, and even visit nearby islands like Lamu and Manda. You can also check out snorkeling and scuba diving adventures in Diani Beach, I recommend checking out reputable operators like Diani Marine for guided tours to explore the colorful coral reefs and diverse underwater ecosystems. I would also recommend you have a look at historical sites and museums, Fort Jesus in Mombasa is a must-visit, offering insight into Kenya's colonial past. Additionally, the Lamu Museum in Lamu town provides a fascinating glimpse into the region's rich history and cultural heritage, making your coastal Kenya experience both educational and memorable"
+
+  utter_relaxation:
+  - text: "Kenya offers several natural hot springs and geothermal pools for relaxation. One notable location is the Olkaria Geothermal Spa in Hell's Gate National Park, where you can enjoy soothing geothermal pools surrounded by scenic landscapes. Additionally, the Chyulu Hills in Tsavo West National Park boasts the Shetani Lava Flows, which have hidden geothermal pools ideal for relaxation. If you're seeking spa resorts and wellness retreats, places like the Great Rift Valley Lodge and Golf Resort, Sarova Whitesands Beach Resort & Spa in Mombasa, and Serena Beach Resort & Spa in Malindi offer tranquil spa experiences and wellness facilities, providing the perfect opportunity to unwind and rejuvenate during your stay in Kenya."
+
 
   utter_did_that_help:
   - text: "Did that help you?"
