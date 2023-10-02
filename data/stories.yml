@@ -147,6 +147,58 @@ stories:
     - intent: affirm
     - action: utter_enjoy_beach
 
+- story: typical weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: typical_weather
+  - action: utter_typical_weather
+
+- story: weather concerns
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather_concerns
+  - action: utter_weather_concerns
+
+- story: pleasant weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pleasant_weather
+  - action: utter_pleasant_weather
+
+- story: weather variation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather_variation
+  - action: utter_weather_variation
+
+- story: ask destination activities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_destination_activities
+  - action: utter_ask_destination_activities
+
+- story: coastal activities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: coastal_activities
+  - action: utter_coastal_activities
+
+- story: relaxation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: relaxation
+  - action: utter_relaxation
+
+
+    
+
 - story: sad path 4
   steps:
   - intent: greet
