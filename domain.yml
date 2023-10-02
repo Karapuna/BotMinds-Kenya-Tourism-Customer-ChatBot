@@ -31,6 +31,7 @@ intents:
   - coastal_activities
   - relaxation
 
+
 responses:
   utter_greet:
     - text: "Hey! My name is SafiriBot. I'm here to provide you with the best insights about our beloved Kenya! How may I be of help?"
