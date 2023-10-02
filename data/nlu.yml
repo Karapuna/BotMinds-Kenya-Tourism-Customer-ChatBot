@@ -136,6 +136,48 @@ nlu:
     - Hope you enjoy your food.
     - Wishing you a delicious meal.
 
+- intent: typical_weather
+  examples: |
+    - What is the typical weather in Kenya during July, August and December? 
+    - Could you describe the typical temperatures and rainfall in Kenya for July, August, and December?
+    - Give me an overview of the Kenyan weather during July, August, and December.
+
+- intent: weather_concerns
+  examples: |
+    - Are there any weather-related concerns i should be aware of for my trip to Kenya?
+    - When is the most suitable time to plan my trip to Kenya for a combination of favorable weather conditions and optimal wildlife sightings?
+    - Could you provide information on potential weather-related challenges for travelers in Kenya?
+    - What weather challenges or precautions should I be aware of for my Kenya trip?
+
+- intent: pleasant_weather
+  examples: |
+    - Can you recommend the best time of the year to visit Kenya for pleasant weather and wildlife viewing?
+    - When should I consider traveling to Kenya for a great balance of comfortable climate and the best wildlife-watching experiences?
+
+- intent: weather_variation
+  examples: |
+    - How does the weather vary between coastal regions like Mombasa and inland areas like Nairobi?
+    - Could you explain the variations in weather patterns I can expect between the coastal regions, such as Mombasa, and the inland areas, like Nairobi, when traveling in Kenya?
+    - How does the climate differ between coastal towns like Mombasa and the interior cities like Nairobi within Kenya, and what impact does this have on travel planning?
+
+- intent: ask_destination_activities
+  examples: |
+    - What cultural festivals are happening during my visit to Kenya?
+    - Can i participate in local traditions or ceremonies as a tourist?
+
+- intent: coastal_activities
+  examples: |
+    - Are there any unique boat trips or dhow cruises available along Kenyan Coast?
+    - Can you recommend a reputable snorkeling or scuba diving tour in Diani Beach?
+    - Which historical sites or museums in Kenya are worth visiting in coastal Kenya?
+
+- intent: relaxation
+  examples: |
+    - Where can i find natural hot springs or geothermal pools for relaxation?
+    - Are there any spa resorts or wellness retreats in Kenya where i can unwind?
+
+
+
 - intent: goodbye
   examples: |
     - cu
