@@ -226,7 +226,15 @@ stories:
    - intent: affirm
    - action: utter_great
 
- 
+  - story: Carnivore Directions
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_carnivore
+    - action: utter_carnivore_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
 
 
     
