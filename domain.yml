@@ -8,6 +8,7 @@ intents:
   - ask_rift_valley
   - ask_safari_destination
   - ask_top_beach_destinations
+  - ask_top_tourist_attractions_Nairobi
   - FindFoodNairobi
   - FindFoodMombasa
   - FindFoodKisumu
@@ -16,6 +17,7 @@ intents:
   - FindFoodMaasaiMara
   - FindSpecificFood
   - FindHiddenGemDining
+  - ask_typical_weather
   - EnjoyMeal
   - affirm
   - deny
@@ -102,136 +104,157 @@ responses:
 
   utter_enjoy_beach:
     - text: "Enjoy every sun-kissed moment, every gentle wave, and the endless beauty of the beach. May your beach experience be filled with relaxation, joy, and unforgettable memories 🌴🌞"
-        
+
+  utter_ask_top_tourist_attractions_Nairobi:
+    - text: |
+        The foremost tourist attractions in Nairobi encompass Nairobi National Park, the Giraffe Centre, and the Karen Blixen Museum.
+
+  utter_enjoy_Nairobi:
+    - text: "Great!!Make sure to savor and enjoy the vibrant experiences Nairobi has to offer!"
+
 
   utter_FindFoodNairobi:
-  - text: "Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
+  - text: |
+      Nairobi offers a vibrant culinary scene with a wide range of dining options. Here are some recommendations:
 
-   1. **Carnivore Restaurant:** Known for its 'Beast of a Feast' featuring a variety of grilled meats.
-   2. **Talisman Restaurant:** Offers a diverse menu with international and Kenyan dishes.
-   3. **Nyama Mama:** A great place for modern Kenyan cuisine with a twist.
-   4. **K'osewe Ranalo Foods:** Famous for traditional Kenyan dishes like sukuma wiki and ugali.
-   5. **Anghiti Restaurant:** Serving delicious Indian cuisine.
-   6. **Hero:** Ideal for seafood lovers with a range of fresh seafood dishes.
+           1. **Carnivore Restaurant:** Known for its 'Beast of a Feast' featuring a variety of grilled meats.
+           2. **Talisman Restaurant:** Offers a diverse menu with international and Kenyan dishes.
+           3. **Nyama Mama:** A great place for modern Kenyan cuisine with a twist.
+           4. **K'osewe Ranalo Foods:** Famous for traditional Kenyan dishes like sukuma wiki and ugali.
+           5. **Anghiti Restaurant:** Serving delicious Indian cuisine.
+           6. **Hero:** Ideal for seafood lovers with a range of fresh seafood dishes.
 
-   Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
+      Nairobi's street food scene is bustling as well, with options lik 'mutura' and 'smokie pasua.' Vegetarian restaurants such as 'Swad Indian Restaurant' and 'Artcaffe' offer delicious meat-free dishes.
 
-   Please let me know if you'd like more details about any of these options or if you have specific preferences!"
+      Please let me know if you'd like more details about any of these options or if you have specific preferences!
 
   utter_FindFoodMombasa:
-  - text: "Mombasa offers a delightful culinary experience with a rich blend of flavors. Here are some recommendations:
+  - text: |
+      Mombasa offers a delightful culinary experience with a rich blend of flavors. Here are some recommendations:
 
-   1. **Tamarind Dhow Restaurant:** Enjoy seafood with stunning views on a traditional dhow.
-   2. **Jumba Ruins Monsoon Restaurant:** Known for Swahili and Indian fusion cuisine.
-   3. **Forodhani Restaurant:** Offers Swahili dishes with a waterfront ambiance.
-   4. **Blue Room Restaurant:** A local favorite serving coastal dishes.
-   
+         1. **Tamarind Dhow Restaurant:** Enjoy seafood with stunning views on a traditional dhow.
+         2. **Jumba Ruins Monsoon Restaurant:** Known for Swahili and Indian fusion cuisine.
+         3. **Forodhani Restaurant:** Offers Swahili dishes with a waterfront ambiance.
+         4. **Blue Room Restaurant:** A local favorite serving coastal dishes.
 
-   Mombasa's local dishes include 'biriani' (a flavorful rice dish), 'pilau,' and 'mishkaki' (skewered meats). For seafood lovers, 'swahili fish curry' is a must-try.
+      Mombasa's local dishes include 'biriani' (a flavorful rice dish), 'pilau,' and 'mishkaki' (skewered meats). For seafood lovers, 'swahili fish curry' is a must-try.
 
-   If you have specific preferences or need more information about any of these options, feel free to ask!" 
+      If you have specific preferences or need more information about any of these options, feel free to ask!" 
 
   utter_FindFoodKisumu:
-  - text: "Kisumu, with its stunning lakeside location, offers a unique culinary experience, especially when it comes to fish specialties. Here are some recommendations:
+  - text: |
+      Kisumu, with its stunning lakeside location, offers a unique culinary experience, especially when it comes to fish specialties. Here are some recommendations:
 
-   **Lakeside Restaurants:**
-   1. **Kiboko Bay Resort:** Enjoy a scenic lakeside dining experience with a variety of dishes.
-   2. **Impala Ecolodge Restaurant:** Offers a tranquil atmosphere with a focus on sustainability.
-   3. **Dunga Hill Camp:** Known for its beautiful views and fresh fish dishes.
-
-   **Must-Try Dishes:**
-      Kisumu is famous for its fresh fish from Lake Victoria. Be sure to try 'tilapia' and 'Nile perch' prepared in various delicious ways. You can savor the flavors of grilled, fried, or stewed fish with local spices.
-
-   If you have any specific preferences or need more information, feel free to ask. Enjoy your dining experience by the lake!"
+        **Lakeside Restaurants:**
+           1. **Kiboko Bay Resort:** Enjoy a scenic lakeside dining experience with a variety of dishes.
+           2. **Impala Ecolodge Restaurant:** Offers a tranquil atmosphere with a focus on sustainability.
+           3. **Dunga Hill Camp:** Known for its beautiful views and fresh fish dishes.
+        
+        **Must-Try Dishes:**
+          Kisumu is famous for its fresh fish from Lake Victoria. Be sure to try 'tilapia' and 'Nile perch' prepared in various delicious ways. You can savor the flavors of grilled, fried, or stewed fish with local spices.
+        
+      If you have any specific preferences or need more information, feel free to ask. Enjoy your dining experience by the lake!
 
   utter_FindIndianCuisine:
-  - text: "Indian cuisine is a delightful choice, and Kenya offers a range of Indian restaurants. Here are some recommendations:
+  - text: |
+      Indian cuisine is a delightful choice, and Kenya offers a range of Indian restaurants. Here are some recommendations:
 
-   **Nairobi:**
-   1. **Haandi Restaurant:** Known for its authentic Indian flavors.
-   2. **Mughal Garden:** Offers a diverse menu of Indian dishes.
-   3. **Anghiti Restaurant:** Renowned for its Indian culinary experience.
-   4. **Red Ginger:** Offers a diverse menu of Indian dishes.
-   
-   **Mombasa:**
-   1. **Tamu Tamu Grill:** Offers a blend of Indian and coastal flavors.
-   2. **Annapurna Indian Restaurant:** Known for its Indian vegetarian dishes.
-   3. **Tarboush Restaurant:** Offers a mix of Indian and Middle Eastern cuisine.
-
-   Whether you're craving biryani, tandoori, or vegetarian dishes, these restaurants have you covered. Enjoy the rich flavors of Indian cuisine in Kenya!"
+        **Nairobi:**
+           1. **Haandi Restaurant:** Known for its authentic Indian flavors.
+           2. **Mughal Garden:** Offers a diverse menu of Indian dishes.
+           3. **Anghiti Restaurant:** Renowned for its Indian culinary experience.
+           4. **Red Ginger:** Offers a diverse menu of Indian dishes.
+         
+        **Mombasa:**
+           1. **Tamu Tamu Grill:** Offers a blend of Indian and coastal flavors.
+           2. **Annapurna Indian Restaurant:** Known for its Indian vegetarian dishes.
+           3. **Tarboush Restaurant:** Offers a mix of Indian and Middle Eastern cuisine.
+      
+         Whether you're craving biryani, tandoori, or vegetarian dishes, these restaurants have you covered. Enjoy the rich flavors of Indian cuisine in Kenya!
 
   utter_FindHighlyRankedRestaurants:
-  - text: "You're in for a treat! Kenya has some highly-ranked restaurants that are sure to delight your taste buds. Here are a few top-rated dining spots:
+  - text: |
+      You're in for a treat! Kenya has some highly-ranked restaurants that are sure to delight your taste buds. Here are a few top-rated dining spots:
 
-   **Nairobi:**
-   1. **Talisman Restaurant:** Known for its exceptional cuisine and ambiance.
-   2. **Dusit D2 Hotel & Restaurant:** Offers a range of culinary delights.
-   3. **Harvest Restaurant:** Popular for its farm-to-table concept.
+      **Nairobi:**
+         1. **Talisman Restaurant:** Known for its exceptional cuisine and ambiance.
+         2. **Dusit D2 Hotel & Restaurant:** Offers a range of culinary delights.
+         3. **Harvest Restaurant:** Popular for its farm-to-table concept.
 
-   **Mombasa:**
-   1. **Tamarind Dhow Restaurant:** Renowned for its seafood and waterfront dining.
-   2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with excellent reviews.
-   3. **Forodhani Restaurant:** A top choice for Swahili dishes.
+      **Mombasa:**
+         1. **Tamarind Dhow Restaurant:** Renowned for its seafood and waterfront dining.
+         2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with excellent reviews.
+         3. **Forodhani Restaurant:** A top choice for Swahili dishes.
 
-   **Eldoret:**
-   1. **64 Resort & Sporting Club:** Offers a mix of international and local dishes.
-   2. **Makasembo Restaurant:** Known for its quality food and service.
+      **Eldoret:**
+         1. **64 Resort & Sporting Club:** Offers a mix of international and local dishes.
+         2. **Makasembo Restaurant:** Known for its quality food and service.
 
-   These are just a few highly-rated options to consider. Keep in mind that restaurant ratings can change, so it's a good idea to check recent reviews and availability before dining out. Enjoy your culinary journey!"
+      These are just a few highly-rated options to consider. Keep in mind that restaurant ratings can change, so it's a good idea to check recent reviews and availability before dining out. Enjoy your culinary journey!
 
   utter_FindFoodMaasaiMara:
   - text: "Maasai Mara National Reserve offers dining experiences amidst the stunning wilderness. Here are some recommendations:
 
-   **Lodges and Camps:**
-   1. **Mara Serena Safari Lodge:** Offers a mix of international and Kenyan cuisine.
-   2. **Mara Intrepids Luxury Tented Camp:** Known for its delectable dishes with a view of the savannah.
-   3. **Keekorok Lodge:** Offers buffet-style dining with a variety of options.
+      **Lodges and Camps:**
+         1. **Mara Serena Safari Lodge:** Offers a mix of international and Kenyan cuisine.
+         2. **Mara Intrepids Luxury Tented Camp:** Known for its delectable dishes with a view of the savannah.
+         3. **Keekorok Lodge:** Offers buffet-style dining with a variety of options.
      
-   **Safari Picnics:**
-   Many safari operators in Maasai Mara offer delightful bush picnics. Enjoy a meal in the heart of the reserve with the sights and sounds of wildlife around you.
+     **Safari Picnics:**
+      Many safari operators in Maasai Mara offer delightful bush picnics. Enjoy a meal in the heart of the reserve with the sights and sounds of wildlife around you.
 
-   If you're specifically looking for nyama choma (grilled meat), you can inquire at the lodges or camps, as they often offer this delicious Kenyan specialty as part of their menu.
+      If you're specifically looking for nyama choma (grilled meat), you can inquire at the lodges or camps, as they often offer this delicious Kenyan specialty as part of their menu.
 
-   Please note that dining experiences in the reserve are often arranged by the lodges and safari operators. Feel free to inquire with your accommodation or tour provider for specific dining arrangements and options."
-  
+      Please note that dining experiences in the reserve are often arranged by the lodges and safari operators. Feel free to inquire with your accommodation or tour provider for specific dining arrangements and options."
+
   utter_FindSpecificFood:
   - text: "Kenya is known for its delicious and diverse culinary offerings. Here's where you can enjoy some of the iconic Kenyan dishes:
 
-   **Nyama Choma (Grilled Meat):**
-   If you're looking for nyama choma, you're in for a treat! Many local restaurants and 'nyama choma joints' in Kenya serve this grilled meat specialty. In Nairobi, 'Carnivore Restaurant' is a popular choice and you can check out  'Olepolos Restaurant' try their famous grilled meats and African dishes.
+      **Nyama Choma (Grilled Meat):**
+      If you're looking for nyama choma, you're in for a treat! Many local restaurants and 'nyama choma joints' in Kenya serve this grilled meat specialty. In Nairobi, 'Carnivore Restaurant' is a popular choice and you can check out  'Olepolos Restaurant' try their famous grilled meats and African dishes.
+    
+      **Ugali and Sukuma Wiki:**
+      Ugali, a staple food, is often served with sukuma wiki (collard greens). You can find this combination in almost every local eatery, especially in Nairobi and other major cities.
 
-   **Ugali and Sukuma Wiki:**
-   Ugali, a staple food, is often served with sukuma wiki (collard greens). You can find this combination in almost every local eatery, especially in Nairobi and other major cities.
-
-   **Chapati:**
-   Nairobi offers a wide range of places to savor chapati, a soft flatbread. 'Maasai Ostrich Resort' and 'Zucchini' in Nairobi are known for their delicious chapati.
-
-   **Samosas:**
-   For samosas, Mombasa has plenty of options. Local eateries and street food vendors offer tasty samosas with various fillings. You can try them at 'Fort Jesus Food Court' and 'Old Town Mombasa.'
-
-   **Kenya's Staple Food:**
-   The staple food of Kenya is 'ugali,' a maize porridge served as a side dish with various accompaniments.
-
-   Enjoy exploring the diverse flavors of Kenya's cuisine!"
+     **Chapati:**
+     Nairobi offers a wide range of places to savor chapati, a soft flatbread. 'Maasai Ostrich Resort' and 'Zucchini' in Nairobi are known for their delicious chapati.
+  
+     **Samosas:**
+     For samosas, Mombasa has plenty of options. Local eateries and street food vendors offer tasty samosas with various fillings. You can try them at 'Fort Jesus Food Court' and 'Old Town Mombasa.'
+  
+     **Kenya's Staple Food:**
+     The staple food of Kenya is 'ugali,' a maize porridge served as a side dish with various accompaniments.
+  
+     Enjoy exploring the diverse flavors of Kenya's cuisine!"
   
   utter_FindHiddenGemDining:
   - text: "Exploring hidden gem dining spots can be an exciting culinary adventure! Here are some lesser-known dining options in Kenya:
 
-   **Nairobi:**
-   1. **The Arbor:** A cozy spot with a unique menu and charming ambiance.
-   2. **Sai Rock Beach Hotel:** Offers coastal cuisine with serene beachfront dining.
-   3. **Tin Roof Café:** A quaint café known for its homemade dishes.
-
-   **Mombasa:**
-   1. **Forodhani Restaurant:** Known for Swahili dishes and a vibrant atmosphere.
-   2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with an underrated charm.
-   3. **Levantine Restaurant:** Offers Middle Eastern specialties in a hidden gem setting.
-
-   **Street Food Gems:**
-   For hidden gem street food experiences, explore local markets and neighborhoods in Nairobi, Mombasa, and other cities. You'll find unique flavors and authentic dishes prepared by local vendors.
-
-   Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!" 
+     **Nairobi:**
+     1. **The Arbor:** A cozy spot with a unique menu and charming ambiance.
+     2. **Sai Rock Beach Hotel:** Offers coastal cuisine with serene beachfront dining.
+     3. **Tin Roof Café:** A quaint café known for its homemade dishes.
   
+     **Mombasa:**
+     1. **Forodhani Restaurant:** Known for Swahili dishes and a vibrant atmosphere.
+     2. **Jumba Ruins Monsoon Restaurant:** Fusion cuisine with an underrated charm.
+     3. **Levantine Restaurant:** Offers Middle Eastern specialties in a hidden gem setting.
+  
+     **Street Food Gems:**
+     For hidden gem street food experiences, explore local markets and neighborhoods in Nairobi, Mombasa, and other cities. You'll find unique flavors and authentic dishes prepared by local vendors.
+  
+     Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!"
+
+
+  utter_ask_typical_weather:
+    - text: |
+        During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu
+        
+        Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers
+        
+        In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic.
+  
+
   utter_EnjoyMeal:
   - text: "Thank you! I hope you have a wonderful meal. If you have any questions or need assistance with anything else, feel free to ask."
   utter_cheer_up:
@@ -291,27 +314,29 @@ responses:
       
   utter_carnivore_directions:
   - text: |
-      To get to the Carnivore restaurant in Nairobi, you can head to Langata Road. The restaurant is located at Langata Road, near Wilson Airport. If you are in the city center, you can take Uhuru Highway and then turn onto Langata Road. Follow the road, and you'll see the Carnivore restaurant on your right. Click [here](geo:-1.365022,36.777813?q=Carnivore%20Restaurant%2C%20Langata%20Road%2C%20Nairobi%2C%20Kenya) to get the GPS
+      To get to the Carnivore restaurant in Nairobi, you can head to Langata Road. The restaurant is located at Langata Road, near Wilson Airport. If you are in the city center, you can take Uhuru Highway and then turn onto Langata Road. Follow the road, and you'll see the Carnivore restaurant on your right. 
+      
+      Click [here](geo:-1.365022,36.777813?q=Carnivore%20Restaurant%2C%20Langata%20Road%2C%20Nairobi%2C%20Kenya) to get the GPS
   utter_talisman_directions:
   - text: |
       The Talisman Restaurant is located in Karen, Nairobi, Kenya. Here are directions to the Talisman Restaurant from Nairobi city center:
 
-    By Car
-    
-    Start in Nairobi city center.
-    Head southwest on Kenyatta Avenue and continue onto Uhuru Highway/A104.
-    Continue on Uhuru Highway/A104, and take the exit onto Lang'ata Road.
-    Drive along Lang'ata Road until you reach Karen.
-    In Karen, turn right onto Karen Road.
-    Continue on Karen Road for a short distance until you see The Talisman Restaurant on your left.
-    
-    By Public Transportation:
-    
-    You can take a matatu (shared minibus) or a taxi from Nairobi city center to Karen.
-    Once you arrive in Karen, you can ask locals for directions to The Talisman Restaurant, as it is a well-known establishment in the area.
-    Please note that road conditions and traffic can vary, so it's a good idea to use a navigation app or ask locals for real-time guidance if needed. Additionally, consider checking the restaurant's website or contacting them directly for the most up-to-date information and any specific location details.
-
-    Here's a link to the GPS [here](geo:-1.316389,36.704503?q=The%20Talisman%20Restaurant%2C%20Karen%2C%20Nairobi%2C%20Kenya)
+      By Car
+      
+      Start in Nairobi city center.
+      Head southwest on Kenyatta Avenue and continue onto Uhuru Highway/A104.
+      Continue on Uhuru Highway/A104, and take the exit onto Lang'ata Road.
+      Drive along Lang'ata Road until you reach Karen.
+      In Karen, turn right onto Karen Road.
+      Continue on Karen Road for a short distance until you see The Talisman Restaurant on your left.
+      
+      By Public Transportation:
+      
+      You can take a matatu (shared minibus) or a taxi from Nairobi city center to Karen.
+      Once you arrive in Karen, you can ask locals for directions to The Talisman Restaurant, as it is a well-known establishment in the area.
+      Please note that road conditions and traffic can vary, so it's a good idea to use a navigation app or ask locals for real-time guidance if needed. Additionally, consider checking the restaurant's website or contacting them directly for the most up-to-date information and any specific location details.
+  
+      Here's a link to the GPS [here](geo:-1.316389,36.704503?q=The%20Talisman%20Restaurant%2C%20Karen%2C%20Nairobi%2C%20Kenya)
 
     
   utter_nyamamama_directions:

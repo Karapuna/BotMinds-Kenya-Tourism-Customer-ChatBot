@@ -68,6 +68,14 @@ nlu:
     - Which Kenyan coastal locations are famous for their stunning shorelines
     - What are the prime beach destinations found on the Kenyan coastal region
 
+- intent: ask_top_tourist_attractions_Nairobi
+  examples: |
+    - What are the top tourist attractions in Nairobi
+    - What are the primary points of interest for tourists in Nairobi
+    - Can you list the most popular tourist spots in Nairobi
+    - Which places draw the most visitors in Nairobi
+    - Could you outline the key tourist destinations in Nairobi
+
 - intent: FindFoodNairobi
   examples: |
     - Recommend restaurants in Nairobi.
@@ -131,6 +139,12 @@ nlu:
    - Show me lesser
     -known food joints in Mombasa.
    - I want to explore hidden gem cafes in Kenya.
+- intent: ask_typical_weather
+  examples: |
+    - What is the weather in June, August and December in Kenya
+    - Can you describe the customary weather patterns in Kenya in July, August, and December
+    - What are the typical meteorological conditions experienced in Kenya during the months of July, August, and December
+    - How does the weather typically behave in Kenya throughout July, August, and December
 
 - intent: EnjoyMeal
   examples: |
@@ -181,7 +195,7 @@ nlu:
     - Are there any spa resorts or wellness retreats in Kenya where i can unwind?
 
 
--intent: ask_history_amboseli_national_park
+- intent: ask_history_amboseli_national_park
   examples: |
     -Could you provide me with some historical information regarding Amboseli
     -I'm interested in learning about the historical background of Amboseli. What can you tell me?
@@ -189,7 +203,7 @@ nlu:
     -Provide me with some historical insights into Amboseli
     -I'd like to know more about the historical context of Amboseli. Please share some facts
 
--intent: ask_history_lamu_island
+- intent: ask_history_lamu_island
   examples: |
     -Give me some historical facts about Lamu Island.
     -I'd love to learn about the history of Lamu Island. Could you provide me with some historical facts?
@@ -200,7 +214,7 @@ nlu:
     -Share with me the historical information you have on Lamu Island.
     -I'm interested in the history of Lamu Island. Please provide me with some historical facts.
 
--intent: ask_history_nairobi_national_park
+- intent: ask_history_nairobi_national_park
   examples: |
     -Could you provide me with some historical information regarding Nairobi National Park?
     -I'm interested in learning about the historical background of Nairobi National Park. What can you tell me?
@@ -209,7 +223,7 @@ nlu:
     -What are the historical details and events associated with Nairobi National Park
     -Can you enlighten me on the past and historical significance of Nairobi National Park
 
--intent: ask_history_maasai_mara_reserve
+- intent: ask_history_maasai_mara_reserve
   examples: |
     -Could you provide me with some historical insights about Maasai Mara Reserve
     -I'm interested in learning about the history of Maasai Mara Reserve. Can you share some historical facts
@@ -420,7 +434,7 @@ nlu:
 
 
     
--intent: goodbye
+- intent: goodbye
   examples: |
     - cu
     - good by

@@ -216,8 +216,8 @@ stories:
   - intent: ask_history_maasai_mara_reserve
   - action: utter_history_destination_mmr
 
- - story: Maasai Mara Directions
-   steps:
+- story: Maasai Mara Directions
+  steps:
    - intent: greet
    - action: utter_greet
    - intent: ask_directions_Maasaimara
@@ -226,8 +226,8 @@ stories:
    - intent: affirm
    - action: utter_great
 
-  - story: Carnivore Directions
-    steps:
+- story: Carnivore Directions
+  steps:
     - intent: greet
     - action: utter_greet
     - intent: ask_directions_carnivore
@@ -236,8 +236,8 @@ stories:
     - intent: affirm
     - action: utter_great
     
-  - story: Talisman Directions
-    steps:
+- story: Talisman Directions
+  steps:
     - intent: greet
     - action: utter_greet
     - intent: ask_directions_talisman
@@ -247,7 +247,7 @@ stories:
     - action: utter_great
     
 - story: Nyama Mama Directions
-    steps:
+  steps:
     - intent: greet
     - action: utter_greet
     - intent: ask_directions_nyamamama
@@ -257,6 +257,25 @@ stories:
     - action: utter_great
 
     
+
+
+- story: Typical Weather
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_typical_weather
+    - action: utter_ask_typical_weather
+    - action: utter_did_that_help
+
+- story: Top Destination Nairobi
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_top_tourist_attractions_Nairobi
+    - action: utter_ask_top_tourist_attractions_Nairobi
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_enjoy_Nairobi
 
 - story: sad path 4
   steps:
