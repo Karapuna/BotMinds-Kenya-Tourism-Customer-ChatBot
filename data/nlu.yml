@@ -247,6 +247,15 @@ nlu:
     - I'm looking for the Talisman restaurant. Could you assist me with directions
     - I'm not from around here. Can you point me in the right direction to the Talisman restaurant
     - What's the best route to the Talisman restaurant, and are there any road closures I should be aware of
+
+- intent: ask_directions_nyamamama
+  examples: |
+    - do you know how to get to the Nyama mama restaurant
+    - Can you please tell me the way to the Nyama mama restaurant
+    - could you kindly provide me with directions to the Nyama mama restaurant
+    - I'm looking for the Nyama mama restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Nyama mama restaurant
+    - What's the best route to the Nyama mama restaurant, and are there any road closures I should be aware of   
     
 - intent: Airport_Transfer
   examples: |
