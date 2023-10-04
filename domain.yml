@@ -36,6 +36,7 @@ intents:
   - ask_history_maasai_mara_reserve
   - ask_directions_Maasaimara
   - ask_directions_carnivore
+  - ask_directions_talisman
 
 
 responses:
@@ -290,10 +291,30 @@ responses:
   utter_carnivore_directions:
   - text: |
       To get to the Carnivore restaurant in Nairobi, you can head to Langata Road. The restaurant is located at Langata Road, near Wilson Airport. If you are in the city center, you can take Uhuru Highway and then turn onto Langata Road. Follow the road, and you'll see the Carnivore restaurant on your right. Click [here](geo:-1.365022,36.777813?q=Carnivore%20Restaurant%2C%20Langata%20Road%2C%20Nairobi%2C%20Kenya) to get the GPS
-      
+  utter_talisman_directions:
+  - text: |
+      The Talisman Restaurant is located in Karen, Nairobi, Kenya. Here are directions to the Talisman Restaurant from Nairobi city center:
+
+    By Car
+    
+    Start in Nairobi city center.
+    Head southwest on Kenyatta Avenue and continue onto Uhuru Highway/A104.
+    Continue on Uhuru Highway/A104, and take the exit onto Lang'ata Road.
+    Drive along Lang'ata Road until you reach Karen.
+    In Karen, turn right onto Karen Road.
+    Continue on Karen Road for a short distance until you see The Talisman Restaurant on your left.
+    
+    By Public Transportation:
+    
+    You can take a matatu (shared minibus) or a taxi from Nairobi city center to Karen.
+    Once you arrive in Karen, you can ask locals for directions to The Talisman Restaurant, as it is a well-known establishment in the area.
+    Please note that road conditions and traffic can vary, so it's a good idea to use a navigation app or ask locals for real-time guidance if needed. Additionally, consider checking the restaurant's website or contacting them directly for the most up-to-date information and any specific location details.
+
+    Here's a link to the GPS [here](geo:-1.316389,36.704503?q=The%20Talisman%20Restaurant%2C%20Karen%2C%20Nairobi%2C%20Kenya)
+    
   utter_great:
   - text: |
-      Great! In case you have any other questions, feel free to reach out to SafariBot!
+      Great! In case you have any other questions, feel free to reach out to SafariBot!😄
       
   utter_did_that_help:
   - text: "Did that help you?"
