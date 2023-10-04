@@ -216,7 +216,17 @@ stories:
   - intent: ask_history_maasai_mara_reserve
   - action: utter_history_destination_mmr
 
-  
+ - story: Maasai Mara Directions
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: ask_Maasaimara_directions
+   - action: utter_MaasaiMara_directions
+   - action: utter_did_that_help
+   - intent: affirm
+   - action: utter_great
+
+ 
 
 
     
