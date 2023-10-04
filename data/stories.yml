@@ -245,7 +245,16 @@ stories:
     - action: utter_did_that_help
     - intent: affirm
     - action: utter_great
-
+    
+- story: Nyama Mama Directions
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_nyamamama
+    - action: utter_nyamamama_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
 
     
 
