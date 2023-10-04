@@ -219,7 +219,16 @@ nlu:
     -I'm curious about the historical aspects of Maasai Mara Reserve. Can you provide some historical insights.
 
 
-
+##DIRECTIONS
+- intent: ask_directions_Maasaimara
+  examples: |
+    - Which way is Maasai Mara?
+    - How can I get to Maasai Mara
+    - could you kindly provide me with directions to Maasai Mara
+    - I wonder if you could assist me in finding my way to Maasai Mara
+    - I'm not familiar with the area. Could you help me find my way to Maasai Mara
+    - I'm planning a trip to Maasai Mara. Can you provide step-by-step directions
+    - What's the quickest route to Maasai Mara, and are there any road closures or construction I should be aware of
 
 
     
