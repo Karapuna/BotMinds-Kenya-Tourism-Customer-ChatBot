@@ -35,6 +35,7 @@ intents:
   - ask_history_amboseli_national_park
   - ask_history_maasai_mara_reserve
   - ask_directions_Maasaimara
+  - ask_directions_carnivore
 
 
 responses:
@@ -286,9 +287,14 @@ responses:
       GPS/Navigation
       You can also use a GPS or a navigation app like Google Maps to get turn-by-turn directions to Maasai Mara. Click the following link to use GPS;[Google Maps link](https://www.google.com/maps/dir/Nairobi/Maasai+Mara) 
       
-
+  utter_carnivore_directions:
+  - text: |
+      To get to the Carnivore restaurant in Nairobi, you can head to Langata Road. The restaurant is located at Langata Road, near Wilson Airport. If you are in the city center, you can take Uhuru Highway and then turn onto Langata Road. Follow the road, and you'll see the Carnivore restaurant on your right. Click [here](geo:-1.365022,36.777813?q=Carnivore%20Restaurant%2C%20Langata%20Road%2C%20Nairobi%2C%20Kenya) to get the GPS
       
-
+  utter_great:
+  - text: |
+      Great! In case you have any other questions, feel free to reach out to SafariBot!
+      
   utter_did_that_help:
   - text: "Did that help you?"
 
