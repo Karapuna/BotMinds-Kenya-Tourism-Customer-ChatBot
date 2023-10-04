@@ -34,6 +34,7 @@ intents:
   - ask_history_nairobi_national_park
   - ask_history_amboseli_national_park
   - ask_history_maasai_mara_reserve
+  - ask_directions_Maasaimara
 
 
 responses:
@@ -271,7 +272,22 @@ responses:
   - text: |
         "The Maasai Mara Reserve, located in southwestern Kenya, has a rich history dating back to the early 20th century. Originally established in 1911 as a Game Reserve by British colonial authorities, it aimed to protect the area's abundant wildlife from overhunting. Over the years, the reserve expanded its boundaries and was officially designated as the Maasai Mara National Reserve in 1961. It was named after the Maasai people who have inhabited the region for generations and the Mara River that runs through it. The Maasai Mara is famous for its breathtaking landscapes, diverse wildlife, and the annual wildebeest migration, often referred to as the "Great Migration." This incredible natural phenomenon sees millions of wildebeest, zebras, and other animals journey from the Serengeti in Tanzania to the Maasai Mara in search of fresh grazing grounds. Today, the Maasai Mara Reserve is not only a crucial wildlife conservation area but also a top tourist destination, drawing visitors from around the world who come to witness the spectacular wildlife and experience the unique Maasai culture that still thrives in the region. Whether you're interested in the history, wildlife, or culture of the Maasai Mara, there's always something captivating to discover in this iconic Kenyan reserve."
 
+  utter_ask_directions_Maasaimara:
+  - text: |
+      From Nairobi.
+      To get to Maasai Mara from Nairobi, you can head west on the A104 highway towards Narok. Once you reach Narok, follow signs to Maasai Mara, which is approximately a 5 to 6-hour drive from Nairobi
 
+      From Narok.
+      If you are already in Narok, you can follow the road signs to Maasai Mara from here. It's approximately a 2 to 3-hour drive from Narok
+
+      From other locations in Kenya
+      If you are coming from a different location within Kenya, please let me know your starting point, and I can provide more specific directions
+
+      GPS/Navigation
+      You can also use a GPS or a navigation app like Google Maps to get turn-by-turn directions to Maasai Mara. Click the following link to use GPS;[Google Maps link](https://www.google.com/maps/dir/Nairobi/Maasai+Mara) 
+      
+
+      
 
   utter_did_that_help:
   - text: "Did that help you?"
