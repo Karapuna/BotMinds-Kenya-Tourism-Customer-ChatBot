@@ -196,6 +196,28 @@ stories:
   - intent: relaxation
   - action: utter_relaxation
 
+- story: history destination
+  steps:
+  - intent: ask_history_lamu_island
+  - action: utter_history_destination 
+
+- story: history destination nnp
+  steps:
+  - intent: ask_history_nairobi_national_park
+  - action: utter_history_destination_nnp
+
+- story: history destination anp
+  steps:
+  - intent: ask_history_amboseli_national_park
+  - action: utter_history_destination_anp
+
+- story: history destination mmr
+  steps:
+  - intent: ask_history_maasai_mara_reserve
+  - action: utter_history_destination_mmr
+
+  
+
 
     
 
