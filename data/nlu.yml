@@ -23,6 +23,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - ask_history_lamu_island
+    - ask_history_nairobi_national_park
+    - ask_history_amboseli_national_park
+    - ask_history_maasai_mara_reserve
 
 - intent: find_national_park
   examples: |
