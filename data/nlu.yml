@@ -230,6 +230,15 @@ nlu:
     - I'm planning a trip to Maasai Mara. Can you provide step-by-step directions
     - What's the quickest route to Maasai Mara, and are there any road closures or construction I should be aware of
 
+- intent: ask_directions_carnivore
+  examples: |
+    - do you know how to get to the Carnivore restaurant
+    - Can you please tell me the way to the Carnivore restaurant
+    - could you kindly provide me with directions to the Carnivore restaurant
+    - I'm looking for the Carnivore restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Carnivore restaurant
+    - What's the best route to the Carnivore restaurant, and are there any road closures I should be aware of
+
 
     
 - intent: Airport_Transfer
