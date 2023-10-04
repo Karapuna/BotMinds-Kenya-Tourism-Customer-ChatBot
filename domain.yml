@@ -251,6 +251,23 @@ responses:
   utter_relaxation:
   - text: "Kenya offers several natural hot springs and geothermal pools for relaxation. One notable location is the Olkaria Geothermal Spa in Hell's Gate National Park, where you can enjoy soothing geothermal pools surrounded by scenic landscapes. Additionally, the Chyulu Hills in Tsavo West National Park boasts the Shetani Lava Flows, which have hidden geothermal pools ideal for relaxation. If you're seeking spa resorts and wellness retreats, places like the Great Rift Valley Lodge and Golf Resort, Sarova Whitesands Beach Resort & Spa in Mombasa, and Serena Beach Resort & Spa in Malindi offer tranquil spa experiences and wellness facilities, providing the perfect opportunity to unwind and rejuvenate during your stay in Kenya."
 
+  utter_history_destination:
+  - text: |
+        "With its origins tracing back to the 14th century, Lamu Old Town stands as an exquisite example of a well-preserved Swahili settlement. A vibrant history of trade with Arabia, Persia, and India is woven into the town's fabric. The town's streets wind through a captivating tapestry of traditional Swahili architecture. Some of the prominent attractions are the Lamu fort,Lamu Museum, Lamu House museum and it renowned Swahili architecture."
+
+  utter_history_destination_nnp:
+  - text: |
+        "Nairobi National Park: Where the Wild Meets the City!Nairobi National Park, often referred to as the Savannah in the City,is a unique and historic wildlife sanctuary located on the outskirts of Nairobi,the bustling capital city of Kenya. Established in 1946, it holds the distinction of being the first national park in Kenya and one of the earliest in Africa."
+
+  utter_history_destination_anp:
+  - text: |
+        "Amboseli National Park, located in southern Kenya near the Tanzanian border, has a rich history that dates back centuries. The park, known for its stunning landscapes and iconic views of Mount Kilimanjaro, holds both cultural and ecological significance.Maasai Land: Before becoming a national park, the Amboseli area was inhabited by the Maasai people.Establishment as a Game Reserve: In 1906, during British colonial rule, Amboseli was declared a Southern Reserve for Maasai hunting, marking the first step towards wildlife conservation in the area.Becoming a National Park: In 1974, Amboseli was officially designated a national park, ensuring even stronger protections for its wildlife and environment.Iconic Wildlife: Amboseli is famed for its large elephant herds, which are among the most studied in the world. Other iconic species found here include lions, cheetahs, zebras, giraffes, and numerous bird species."
+
+  utter_history_destination_mmr:
+  - text: |
+        "The Maasai Mara Reserve, located in southwestern Kenya, has a rich history dating back to the early 20th century. Originally established in 1911 as a Game Reserve by British colonial authorities, it aimed to protect the area's abundant wildlife from overhunting. Over the years, the reserve expanded its boundaries and was officially designated as the Maasai Mara National Reserve in 1961. It was named after the Maasai people who have inhabited the region for generations and the Mara River that runs through it. The Maasai Mara is famous for its breathtaking landscapes, diverse wildlife, and the annual wildebeest migration, often referred to as the "Great Migration." This incredible natural phenomenon sees millions of wildebeest, zebras, and other animals journey from the Serengeti in Tanzania to the Maasai Mara in search of fresh grazing grounds. Today, the Maasai Mara Reserve is not only a crucial wildlife conservation area but also a top tourist destination, drawing visitors from around the world who come to witness the spectacular wildlife and experience the unique Maasai culture that still thrives in the region. Whether you're interested in the history, wildlife, or culture of the Maasai Mara, there's always something captivating to discover in this iconic Kenyan reserve."
+
+
 
   utter_did_that_help:
   - text: "Did that help you?"
