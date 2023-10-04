@@ -127,6 +127,82 @@ stories:
   - intent: affirm
   - action: utter_EnjoyMeal
 
+- story: Find Cost at Carnivore Restaurant
+  steps:
+  - intent: FindCostCarnivoreRestaurant
+  - action: utter_FindCostCarnivoreRestaurant
+
+- story: Find Cost at Talisman Restaurant
+  steps:
+  - intent: FindCostTalismanRestaurant
+  - action: utter_FindCostTalismanRestaurant
+
+- story: Find Cost at Hero Restaurant
+  steps:
+  - intent: FindCostHeroRestaurant
+  - action: utter_FindCostHeroRestaurant
+
+- story: Find Cost at Impala Eco Lodge
+  steps:
+  - intent: FindCostImpalaEcoLodge
+  - action: utter_FindCostImpalaEcoLodge
+
+- story: Find Cost at Red Ginger
+  steps:
+  - intent: FindCostRedGinger
+  - action: utter_FindCostRedGinger
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Cost at Forodhani Restaurant
+  steps:
+  - intent: FindCostForodhaniRestaurant
+  - action: utter_FindCostForodhaniRestaurant
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_EnjoyMeal
+
+- story: Find Cost at Blue Room Restaurant
+  steps:
+  - intent: FindCostBlueRoomRestaurant
+  - action: utter_FindCostBlueRoomRestaurant
+
+- story: Find Cost at Nyama Mama
+  steps:
+  - intent: FindCostNyamaMama
+  - action: utter_FindCostNyamaMama
+
+- story: Find Cost at The Arbor
+  steps:
+  - intent: FindCostTheArbor
+  - action: utter_FindCostTheArbor
+
+- story: Find Cost at Harvest Restaurant
+  steps:
+  - intent: FindCostHarvestRestaurant
+  - action: utter_FindCostHarvestRestaurant
+
+- story: Find Cost at Kiboko Restaurant
+  steps:
+  - intent: FindCostKibokoRestaurant
+  - action: utter_FindCostKibokoRestaurant
+
+- story: Find Cost at K'osewe Ranalo Foods
+  steps:
+  - intent: FindCostK'oseweRanaloFoods
+  - action: utter_FindCostK'oseweRanaloFoods
+
+- story: Find Cost at Dunga Restaurant
+  steps:
+  - intent: FindCostDungaRestaurant
+  - action: utter_FindCostDungaRestaurant
+
+- story: Find Cost at Tamarind Dhow Restaurant
+  steps:
+  - intent: FindCostTamarindDhowRestaurant
+  - action: utter_FindCostTamarindDhowRestaurant
+
 - story: Safari Destination
   steps:
     - intent : greet
