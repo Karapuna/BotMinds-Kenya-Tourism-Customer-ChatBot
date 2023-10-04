@@ -217,12 +217,172 @@ nlu:
     -What historical information do you have about Maasai Mara Reserve.
     -Please enlighten me with historical facts about Maasai Mara Reserve.
     -I'm curious about the historical aspects of Maasai Mara Reserve. Can you provide some historical insights.
+
+
+
+
+
+    
 - intent: Airport_Transfer
   examples: |
     
-    - How do I get from Jomo Kenyatta International Airport to the city center?
-    - What are the options for getting to my hotel from the airport
-    - Are there airport shuttle services available?
+    - How can I travel from Jomo Kenyatta International Airport to the city center?
+    - What transportation choices are there to reach the city from the airport?
+    - Is there a taxi service at the airport for city transfers?
+    - Are private car services available for airport transfers?
+    - Can I book a shuttle from the airport to my hotel?
+    - What's the best way to get from the airport to downtown?
+    - Do hotels in the city offer airport pickup services?
+    - Are there public buses that go from the airport to the city?
+    - How much does it cost to take a taxi from the airport to the city center?
+    - Are there any discounts on airport transfers for tourists?
+
+
+- intent: Domestic_Flights
+  examples: |
+    - Which airlines do you recommend for domestic flights within Kenya?
+    - Are there any airlines known for their reliability on domestic routes?
+    - Can you suggest airports that are important for domestic travel within Kenya?
+    - What are the primary airports for domestic flights in Kenya?
+    - How can I book domestic flights in advance for my trip?
+    - Are there any discounts or deals available for domestic air travel?
+    - What's the baggage allowance for domestic flights in Kenya?
+    - Can I book a one-way ticket for domestic travel?
+    - Are there any specific requirements for domestic flight passengers?
+    - How early should I arrive at the airport for a domestic flight?
+
+
+
+- intent: Public_transport
+  examples: |
+    - What is the primary mode of public transportation in Kenya?
+    - How can I use public buses or matatus (minibuses) to get around the city?
+    - Are there transportation cards or passes available for public transport?
+    - Where can I find information about public transportation schedules?
+    - What is the cost of public transportation in major cities like Nairobi?
+    - Can you explain the process of using public transportation in Kenya?
+    - Are there specific routes for public buses or matatus in Nairobi?
+    - Do I need exact change for public bus fares, or can I use a card?
+    - Are there any discounts available for tourists using public transportation?
+    - Are public transportation services reliable for daily commuting?
+    
+
+
+- intent: Private_Transport
+  examples: |
+    - Is it advisable to rent a car for travel within Kenya?
+    - What are the road conditions like in Kenya?
+    - Do I need an international driver's permit to drive in Kenya?
+    - Are there reputable car rental companies in Nairobi?
+    - Can you recommend reliable car rental agencies at the airport?
+    - What is the cost of renting a car for a week in Kenya?
+    - Are there any specific rules or regulations for driving in Kenya?
+    - How do I obtain a local driving license if needed?
+    - Are there options for hiring a driver along with the rental car?
+    - Is it safe to drive at night in Kenyan cities?
+
+
+
+- intent: Taxis_and Ride-sharing
+  examples: |
+    - Are taxis readily available in major cities like Nairobi and Mombasa?
+    - Can I use ride-sharing apps like Uber or Bolt in Kenya?
+    - How do I book a taxi from my hotel to a tourist attraction?
+    - What are the typical taxi fares for short distances in Nairobi?
+    - Is it common to negotiate taxi fares in Kenya?
+    - Are taxi services safe for tourists, especially at night?
+    - How do I ensure my safety when using taxis or ride-sharing services?
+    - What are the popular ride-sharing alternatives to Uber in Kenya?
+    - Are there any local ride-sharing apps that I should know about?
+    - Can you recommend a reliable taxi company for airport transfers?
+
+
+- intent: Long_distance_Travel
+  examples: |
+    - What options are available for long-distance travel between Nairobi and Mombasa?
+    - Are there comfortable bus services for intercity journeys in Kenya?
+    - How long does it take to travel from Nairobi to Kisumu by train?
+    - Can I book train tickets online for long-distance travel?
+    - What is the best way to get from Nairobi to Eldoret for a long-distance trip?
+    - Are there overnight buses from Nairobi to Malindi?
+    - How much does it cost to travel by bus from Nairobi to Nakuru?
+    - Can I find direct flights for long-distance travel within Kenya?
+    - What are the schedules for long-distance buses between major cities?
+    - Are there any discounts available for booking round-trip long-distance tickets?
+
+
+- intent: Safari_Transportation
+  examples: |
+    - How do I get to Maasai Mara for a safari experience?
+    - Can you arrange transportation to Amboseli National Park for a safari?
+    - Are there safari tour operators that provide transportation from Nairobi?
+    - Which mode of transportation is best for a safari in Tsavo National Park?
+    - What are the transportation options for a safari in Samburu National Reserve?
+    - Do you have information on safari packages that include transportation and accommodations?
+    - Can I book a safari with transportation to Lake Nakuru National Park?
+    - What is the most convenient way to reach the Great Rift Valley for a safari?
+    - Are there guided safari tours that offer transportation from my hotel to Nairobi National Park?
+    - Do I need to rent a 4x4 vehicle for safaris in Kenya, or are there other transportation options?
+
+
+
+- intent: Ferry_services
+  examples: |
+    - What is the schedule for ferries to Lamu Island from the mainland?
+    - Can I take a ferry to Zanzibar from the Kenyan coast?
+    - Are there ferries that connect Mombasa to nearby islands?
+    - How far in advance should I book ferry tickets to Diani Beach?
+    - Do I need to make a reservation for the Likoni Ferry in Mombasa?
+    - Are there overnight ferry options to reach coastal destinations?
+    - What is the cost of ferry tickets for a round trip to Kisite Mpunguti Marine Park?
+    - Is there a high-speed ferry service from Malindi to Lamu?
+    - How can I check the current ferry schedules for my travel dates?
+    - Are there specific terminals for different ferry routes in Mombasa?
+
+
+
+- intent: Safety_Tips
+  examples: |
+    - What safety precautions should I follow when using matatus (minibuses) in Kenya?
+    - Are there any safety guidelines for travelers regarding wildlife encounters in national parks?
+    - How can I ensure the safety of my belongings while on safari in Kenya?
+    - Are there any specific health precautions I should take before traveling to Kenya?
+    - What safety measures should I be aware of when using public transportation in Nairobi?
+    - Are there any cultural sensitivities I should respect to travel safely in Kenya?
+    - What should I do to stay safe while swimming in the coastal areas of Kenya?
+    - Are there any recommended safety apps or services for travelers in Kenya?
+    - How can I stay informed about current safety and security conditions in Kenya?
+    - Are there any specific safety tips for hiking in the Kenyan mountains?
+
+
+
+- intent: Language_and_ Communication
+  examples: |
+    - What are some common Swahili phrases I should learn for traveling in Kenya?
+    - Is English widely spoken and understood in Kenyan cities and tourist areas?
+    - Are there language apps or translation services that can help me communicate in Kenya?
+    - How can I ask for directions or help if I don't speak Swahili?
+    - Are there local customs related to greetings and communication I should be aware of?
+    - What's the best way to communicate with local guides and tour operators?
+    - Do I need a SIM card or mobile data for communication while traveling in Kenya?
+    - Are there any language challenges or barriers I might encounter in rural areas?
+    - Can you recommend language courses or resources for learning basic Swahili?
+    - Are there specific phrases for ordering food or shopping in local markets?
+
+
+- intent: Essentials
+  examples: |
+    - What type of visa do I need to enter Kenya as a tourist?
+    - How long can I stay in Kenya on a tourist visa, and is it extendable?
+    - Can I apply for a visa on arrival at the airport, or should I apply in advance?
+    - What are the specific visa requirements for my country of residence?
+    - Are there multiple-entry visas available for Kenya?
+    - Do I need a yellow fever vaccination certificate to enter Kenya?
+    - Are there any health or travel insurance recommendations for my trip?
+    - What are the currency and payment options commonly used in Kenya?
+    - Is it advisable to carry cash or use credit cards for transactions?
+    - Are there any important contact numbers or embassy information I should have?
+
 
 
     
