@@ -217,7 +217,15 @@ nlu:
     -What historical information do you have about Maasai Mara Reserve.
     -Please enlighten me with historical facts about Maasai Mara Reserve.
     -I'm curious about the historical aspects of Maasai Mara Reserve. Can you provide some historical insights.
+- intent: Airport_Transfer
+  examples: |
+    
+    - How do I get from Jomo Kenyatta International Airport to the city center?
+    - What are the options for getting to my hotel from the airport
+    - Are there airport shuttle services available?
 
+
+    
 -intent: goodbye
   examples: |
     - cu
