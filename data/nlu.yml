@@ -139,13 +139,91 @@ nlu:
    - Show me lesser
     -known food joints in Mombasa.
    - I want to explore hidden gem cafes in Kenya.
-- intent: ask_typical_weather
-  examples: |
-    - What is the weather in June, August and December in Kenya
-    - Can you describe the customary weather patterns in Kenya in July, August, and December
-    - What are the typical meteorological conditions experienced in Kenya during the months of July, August, and December
-    - How does the weather typically behave in Kenya throughout July, August, and December
 
+- intent: FindCostCarnivoreRestaurant
+  examples: |
+    - How much does a meal at Carnivore Restaurant cost?
+    - What is the price range at Carnivore Restaurant?
+    - Can you tell me the cost of dining at Carnivore Restaurant?
+
+- intent: FindCostTalismanRestaurant
+  examples: |
+    - How much should I expect to spend at Talisman Restaurant?
+    - Can you provide the price range for dining at Talisman Restaurant?
+    - What is the cost of a meal at Talisman Restaurant?
+
+- intent: FindCostTheArbor
+  examples: |
+    - How much does dining at The Arbor typically cost?
+    - Can you provide the price range for The Arbor?
+    - What is the average cost of a meal at The Arbor?
+
+- intent: FindCostHeroRestaurant
+  examples: |
+    - What is the average cost of dining at Hero Restaurant?
+    - Can you tell me the price range at Hero Restaurant?
+    - How much should I budget for a meal at Hero Restaurant?
+
+- intent: FindCostHarvestRestaurant
+  examples: |
+    - What is the cost of dining at Harvest Restaurant?
+    - Can you tell me the price range at Harvest Restaurant?
+    - How much should I expect to pay for food at Harvest Restaurant?
+
+- intent: FindCostK'oseweRanaloFoods
+  examples: |
+    - What is the cost of dining at K'osewe Ranalo Foods?
+    - Can you tell me the price range at K'osewe Ranalo Foods?
+    - How much should I expect to pay for food at K'osewe Ranalo Foods?
+
+- intent: FindCostNyamaMama
+  examples: |
+    - How much should I budget for a meal at Nyama Mama?
+    - Can you provide the price range at Nyama Mama?
+    - What is the average cost of dining at Nyama Mama?
+
+- intent: FindCostTamarindDhowRestaurant
+  examples: |
+    - How much does dining at Tamarind Dhow Restaurant typically cost?
+    - Can you tell me the price range at Tamarind Dhow Restaurant?
+    - What is the average cost of a meal at Tamarind Dhow Restaurant?
+
+- intent: FindCostForodhaniRestaurant
+  examples: |
+    - What is the cost of dining at Forodhani Restaurant?
+    - Can you tell me the price range at Forodhani Restaurant?
+    - How much should I budget for a meal at Forodhani Restaurant?
+
+- intent: FindCostBlueRoomRestaurant
+  examples: |
+    - How much does a meal at Blue Room Restaurant cost?
+    - What is the price range at Blue Room Restaurant?
+    - Can you tell me the cost of dining at Blue Room Restaurant?
+
+- intent: FindCostRedGinger
+  examples: |
+    - How much should I budget for a meal at Red Ginger?
+    - Can you provide the price range at Red Ginger?
+    - What is the average cost of dining at Red Ginger?
+
+- intent: FindCostKibokoRestaurant
+  examples: |
+    - How much does dining at Kiboko Restaurant typically cost?
+    - Can you tell me the price range at Kiboko Restaurant?
+    - What is the average cost of a meal at Kiboko Restaurant?
+
+- intent: FindCostImpalaEcoLodge
+  examples: |
+    - How much should I budget for dining at Impala Eco Lodge?
+    - Can you provide the price range at Impala Eco Lodge?
+    - What is the average cost of dining at Impala Eco Lodge?
+
+- intent: FindCostDungaRestaurant
+  examples: |
+    - How much does a meal at Dunga Restaurant cost?
+    - What is the price range at Dunga Restaurant?
+    - Can you tell me the cost of dining at Dunga Restaurant?
+    
 - intent: EnjoyMeal
   examples: |
     - Enjoy your meal.
@@ -154,6 +232,13 @@ nlu:
     - Hope you enjoy your food.
     - Wishing you a delicious meal.
 
+- intent: ask_typical_weather
+  examples: |
+    - What is the weather in June, August and December in Kenya
+    - Can you describe the customary weather patterns in Kenya in July, August, and December
+    - What are the typical meteorological conditions experienced in Kenya during the months of July, August, and December
+    - How does the weather typically behave in Kenya throughout July, August, and December
+    
 - intent: typical_weather
   examples: |
     - What is the typical weather in Kenya during July, August and December? 
