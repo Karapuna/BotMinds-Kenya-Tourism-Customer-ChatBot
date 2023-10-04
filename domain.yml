@@ -37,6 +37,7 @@ intents:
   - ask_directions_Maasaimara
   - ask_directions_carnivore
   - ask_directions_talisman
+  - ask_directions_nyamamama
 
 
 responses:
@@ -311,7 +312,35 @@ responses:
     Please note that road conditions and traffic can vary, so it's a good idea to use a navigation app or ask locals for real-time guidance if needed. Additionally, consider checking the restaurant's website or contacting them directly for the most up-to-date information and any specific location details.
 
     Here's a link to the GPS [here](geo:-1.316389,36.704503?q=The%20Talisman%20Restaurant%2C%20Karen%2C%20Nairobi%2C%20Kenya)
+
     
+  utter_nyamamama_directions:
+  - text: |
+      Nyama Mama is a popular restaurant with multiple locations in Nairobi, Kenya. Here are the directions to the Nyama Mama restaurant in Westlands, Nairobi, which is one of their locations:
+
+          Nyama Mama, Westlands, Nairobi:
+          
+          Address: Delta Towers, Westlands Road, Nairobi, Kenya.
+          Directions from Nairobi City Center (CBD):
+          
+          Start in Nairobi city center.
+          Head west on Kenyatta Avenue.
+          Turn left onto Muindi Mbingu Street.
+          Continue on Muindi Mbingu Street, which becomes Koinange Street.
+          Turn right onto University Way.
+          Merge onto Waiyaki Way via the ramp on the left.
+          Take the slip road to Westlands.
+          Continue on Westlands Road.
+          You'll find Nyama Mama in Delta Towers on your right.
+          By Public Transportation:
+          
+          You can take a matatu (shared minibus) or a taxi from Nairobi city center to Westlands, and then ask locals for directions to Nyama Mama in Delta Towers.
+          Please note that there are multiple Nyama Mama locations in Nairobi, so it's essential to specify the exact branch you are looking for. Additionally, road conditions and traffic may vary, so using a navigation app or asking locals for real-time guidance can be helpful.
+
+
+
+
+
   utter_great:
   - text: |
       Great! In case you have any other questions, feel free to reach out to SafariBot!😄
