@@ -220,7 +220,7 @@ stories:
    steps:
    - intent: greet
    - action: utter_greet
-   - intent: ask_Maasaimara_directions
+   - intent: ask_directions_Maasaimara
    - action: utter_MaasaiMara_directions
    - action: utter_did_that_help
    - intent: affirm
