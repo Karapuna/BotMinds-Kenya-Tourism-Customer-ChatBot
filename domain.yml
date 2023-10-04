@@ -17,8 +17,22 @@ intents:
   - FindFoodMaasaiMara
   - FindSpecificFood
   - FindHiddenGemDining
-  - ask_typical_weather
+  - FindCostCarnivoreRestaurant
+  - FindCostTalismanRestaurant
+  - FindCostTheArbor
+  - FindCostHeroRestaurant
+  - FindCostHarvestRestaurant
+  - FindCostK'oseweRanaloFoods
+  - FindCostNyamaMama
+  - FindCostTamarindDhowRestaurant
+  - FindCostForodhaniRestaurant
+  - FindCostBlueRoomRestaurant
+  - FindCostRedGinger
+  - FindCostKibokoRestaurant
+  - FindCostImpalaEcoLodge
+  - FindCostDungaRestaurant
   - EnjoyMeal
+  - ask_typical_weather
   - affirm
   - deny
   - mood_great
@@ -244,24 +258,65 @@ responses:
      For hidden gem street food experiences, explore local markets and neighborhoods in Nairobi, Mombasa, and other cities. You'll find unique flavors and authentic dishes prepared by local vendors.
   
      Be sure to check recent reviews and ask locals for their recommendations to discover more hidden culinary treasures in Kenya. Enjoy your gastronomic journey!"
+  
+  utter_FindCostCarnivoreRestaurant:
+  - text: "The cost of dining at Carnivore Restaurant can vary depending on your menu choices. On average, a meal at Carnivore Restaurant may range from Ksh. 2,500 - Ksh. 6,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
 
+  utter_FindCostTalismanRestaurant:
+  - text: "The cost of dining at Talisman Restaurant can vary based on your menu selections. On average, a meal at Talisman Restaurant may fall within the range of Ksh. 3,500 - Ksh. 6,000. Please note that prices may change over time, so it's advisable to check their current menu or contact the restaurant for the most accurate pricing information."
 
+  utter_FindCostTheArbor:
+  - text: "The cost of dining at The Arbor may vary depending on your menu choices. On average, a meal at The Arbor may range from [Ksh. 2,000 - Ksh. 4,000]. Keep in mind that prices can change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing."
+
+  utter_FindCostHeroRestaurant:
+  - text: "The cost of dining at Hero Restaurant may vary based on your menu selections. On average, a meal at Hero Restaurant may fall within the range of Ksh. 2,500 - Ksh. 6,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostNyamaMama:
+  - text: "The cost of dining at Nyama Mama can vary based on your menu selections. On average, a meal at Nyama Mama may fall within the range of Ksh. 2,000 - Ksh. 5,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostTamarindDhowRestaurant:
+  - text: "The cost of dining at Tamarind Dhow Restaurant can vary depending on your menu choices. On average, a meal at Tamarind Dhow Restaurant may range from Ksh. 4000 - Ksh. 10,000. Prices may change, so it's advisable to check their current menu or contact the restaurant for the most up-to-date pricing."
+
+  utter_FindCostForodhaniRestaurant:
+  - text: "The cost of dining at Forodhani Restaurant can vary depending on your menu selections. On average, a meal at Forodhani Restaurant may fall within the range of Ksh. 4,000 - Ksh. 7,000. Keep in mind that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostBlueRoomRestaurant:
+  - text: "The cost of dining at Blue Room Restaurant can vary depending on your menu choices. On average, a meal at BlueRoom Restaurant may range from Ksh. 1,000 - Ksh. 2,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostRedGinger:
+  - text: "The cost of dining at Red Ginger can vary based on your menu selections. On average, a meal at Red Ginger may fall within the range of Ksh. 2,000 - Ksh. 6,000. Prices may change, so it's advisable to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostKibokoRestaurant:
+  - text: "The cost of dining at Kiboko Restaurant can vary depending on your menu choices. On average, a meal at Kiboko Restaurant may range from [Ksh. 3,000 - Ksh. 4,500. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+
+  utter_FindCostImpalaEcoLodge:
+  - text: "The cost of dining at Impala Eco Lodge can vary based on your menu selections. On average, a meal at Impala Eco Lodge may fall within the range of Ksh. 3,000 - Ksh. 4,500. Prices may change, so it's advisable to check their current menu or contact the lodge for the most up-to-date pricing information."
+
+  utter_FindCostDungaRestaurant:
+  - text: "The cost of dining at Dunga Restaurant can vary depending on your menu choices. On average, a meal at Dunga Restaurant may range from [Ksh. 2,500 - Ksh. 4,000. Please note that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostHarvestRestaurant:
+  - text: "The cost of dining at Harvest Restaurant can vary depending on your menu choices. On average, a meal at Harvest Restaurant may range from Ksh. 4,000 - Ksh. 8,000. Please note that prices may change, so it's a good idea to check their current menu or contact the restaurant for the most up-to-date pricing information."
+
+  utter_FindCostK'oseweRanaloFoods:
+  - text: "The cost of dining at K'osewe Ranalo Foods can vary based on your menu selections. On average, a meal at K'osewe Ranalo Foods may range from Ksh. 2,000 - Ksh. 4,000. Please note that prices may change over time, so it's recommended to check their current menu or contact the restaurant for the most accurate pricing information."
+  
+  utter_EnjoyMeal:
+  - text: "Thank you! I hope you have a wonderful meal. If you have any questions or need assistance with anything else, feel free to ask."
+  
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+    
   utter_ask_typical_weather:
-    - text: |
+  - text: |
         During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu
         
         Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers
         
         In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic.
   
-
-  utter_EnjoyMeal:
-  - text: "Thank you! I hope you have a wonderful meal. If you have any questions or need assistance with anything else, feel free to ask."
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-    utter_typical_weather:
+  utter_typical_weather:
   - text: "During July, August, and December, Kenya generally has warm and dry weather. July and August are considered to be part of Kenya's dry season,particularly in many of the popular safari destinations like Maasai Mara, Amboseli, and Samburu.Days are typically sunny with clear skies, making it an excellent time for wildlife viewing.While in December, it marks the start of Kenya's short rainy season, especially in central and western regions.Coastal areas, like Mombasa, experience warm and humid weather during this time with occasional rain showers.In Nairobi and the highlands, you can expect some rainfall, but it's often short and sporadic."
 
   utter_weather_concerns:
