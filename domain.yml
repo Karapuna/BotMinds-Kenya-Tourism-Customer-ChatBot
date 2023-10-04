@@ -272,7 +272,7 @@ responses:
   - text: |
         "The Maasai Mara Reserve, located in southwestern Kenya, has a rich history dating back to the early 20th century. Originally established in 1911 as a Game Reserve by British colonial authorities, it aimed to protect the area's abundant wildlife from overhunting. Over the years, the reserve expanded its boundaries and was officially designated as the Maasai Mara National Reserve in 1961. It was named after the Maasai people who have inhabited the region for generations and the Mara River that runs through it. The Maasai Mara is famous for its breathtaking landscapes, diverse wildlife, and the annual wildebeest migration, often referred to as the "Great Migration." This incredible natural phenomenon sees millions of wildebeest, zebras, and other animals journey from the Serengeti in Tanzania to the Maasai Mara in search of fresh grazing grounds. Today, the Maasai Mara Reserve is not only a crucial wildlife conservation area but also a top tourist destination, drawing visitors from around the world who come to witness the spectacular wildlife and experience the unique Maasai culture that still thrives in the region. Whether you're interested in the history, wildlife, or culture of the Maasai Mara, there's always something captivating to discover in this iconic Kenyan reserve."
 
-  utter_directions_Maasaimara:
+  utter_Maasaimara_directions:
   - text: |
       From Nairobi.
       To get to Maasai Mara from Nairobi, you can head west on the A104 highway towards Narok. Once you reach Narok, follow signs to Maasai Mara, which is approximately a 5 to 6-hour drive from Nairobi
