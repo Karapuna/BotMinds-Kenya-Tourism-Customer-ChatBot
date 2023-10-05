@@ -331,7 +331,17 @@ stories:
     - action: utter_did_that_help
     - intent: affirm
     - action: utter_great
-
+    
+- story: Kosewe Ranalo Directions
+  steps:
+     - intent: greet
+    - action: utter_greet
+    - intent: ask_directions_Kosewe_Ranalo
+    - action: utter_Kosewe_ranalo_directions
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_great
+      
     
 
 
