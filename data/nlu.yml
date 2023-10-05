@@ -354,7 +354,16 @@ nlu:
     - could you kindly provide me with directions to the Nyama mama restaurant
     - I'm looking for the Nyama mama restaurant. Could you assist me with directions
     - I'm not from around here. Can you point me in the right direction to the Nyama mama restaurant
-    - What's the best route to the Nyama mama restaurant, and are there any road closures I should be aware of   
+    - What's the best route to the Nyama mama restaurant, and are there any road closures I should be aware of
+
+- intent: ask_directions_Kosewe_Ranalo
+  examples: |
+    - do you know how to get to the Kosewe Ranalo restaurant
+    - Can you please tell me the way to the Nyama Kosewe Ranalo restaurant
+    - could you kindly provide me with directions to the Kosewe Ranalo restaurant
+    - I'm looking for the Kosewe Ranalo restaurant. Could you assist me with directions
+    - I'm not from around here. Can you point me in the right direction to the Kosewe Ranalo restaurant
+    - What's the best route to the Kosewe Ranalo restaurant, and are there any road closures I should be aware of
     
 - intent: Airport_Transfer
   examples: |
