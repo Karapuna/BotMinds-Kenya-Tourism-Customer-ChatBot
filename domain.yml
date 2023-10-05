@@ -54,6 +54,7 @@ intents:
   - ask_directions_carnivore
   - ask_directions_talisman
   - ask_directions_nyamamama
+  - ask_directions_Kosewe_Ranalo
 
 
 responses:
@@ -417,10 +418,24 @@ responses:
           You can take a matatu (shared minibus) or a taxi from Nairobi city center to Westlands, and then ask locals for directions to Nyama Mama in Delta Towers.
           Please note that there are multiple Nyama Mama locations in Nairobi, so it's essential to specify the exact branch you are looking for. Additionally, road conditions and traffic may vary, so using a navigation app or asking locals for real-time guidance can be helpful.
 
+utter_Kosewe_ranalo_directions:
+- text: |
+    Here are directions to Kosewe Ranalo Foods from the Nairobi city center:
+
+      Kosewe Ranalo Foods, Nairobi:
+      
+      Address: Tom Mboya Street, Nairobi, Kenya.
+      Directions from Nairobi City Center (CBD):
+      
+      Start in Nairobi city center.
+      Head towards Tom Mboya Street.
+      Kosewe Ranalo Foods is located on Tom Mboya Street, and it is a well-known establishment in that area.
+      By Public Transportation:
+      
+      You can take a matatu (shared minibus) or a taxi from Nairobi city center to Tom Mboya Street, and then you should be able to find Kosewe Ranalo Foods.
 
 
-
-
+  
   utter_great:
   - text: |
       Great! In case you have any other questions, feel free to reach out to SafariBot!😄
