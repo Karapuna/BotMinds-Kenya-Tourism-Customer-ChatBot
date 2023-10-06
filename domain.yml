@@ -55,6 +55,16 @@ intents:
   - ask_directions_talisman
   - ask_directions_nyamamama
   - ask_directions_Kosewe_Ranalo
+  - Airport_Transportation_Options
+  - Hotel_Airport_Transfers
+  - Airport_Public_Transportation
+  - Recommended_Airlines
+  - Airport_Recommendations
+  - Booking_Details
+  - Taxis_and_Ride-sharing
+  - Long_distance_Travel
+  - Safari_Transportation
+  - Ferry_services
 
 
 responses:
@@ -433,6 +443,83 @@ utter_Kosewe_ranalo_directions:
       By Public Transportation:
       
       You can take a matatu (shared minibus) or a taxi from Nairobi city center to Tom Mboya Street, and then you should be able to find Kosewe Ranalo Foods.
+
+utter_Airport_Transportation_Options:
+- text: |
+  From Jomo Kenyatta International Airport, you have several transportation options to reach the city center. You can choose from:
+
+        1. **Airport Taxis:** Taxis are readily available at the airport and provide a convenient way to reach the city center. Registered airport taxis have set fares, and the journey takes around 20-30 minutes, depending on traffic.
+
+        2. **Rideshare Services:** You can also use rideshare services like Uber and Bolt, which operate at the airport and can be more cost-effective than traditional taxis.
+
+        3. **Airport Shuttle:** Some hotels offer complimentary shuttle services for guests. Check with your hotel to see if this service is available.
+
+        4. **Public Bus:** Kenya Bus Service (KBS) operates public buses from the airport. The bus stop is a short walk from the international arrivals terminal and offers an economical option.
+
+        5. **Airport Shuttle Services:** Various shuttle companies provide transportation between the airport and Nairobi, including major hotels. These shuttles are comfortable and may be pre-booked.
+
+        6. **Car Rental:** Several car rental companies have desks at the airport if you prefer to have your vehicle.
+
+        7. **Private Transfers:** Consider private transfer services for a personalized and comfortable experience. These can be pre-arranged with providers.
+
+        Please note that Nairobi's traffic can be congested, so plan your transportation accordingly. For the latest options and fares, check with the airport information desk upon arrival.
+
+
+utter_Hotel_Airport_Transfers:
+- text: "Many city hotels in Nairobi offer airport pickup services for their guests. It's a convenient option to ensure a smooth transition from the airport to your accommodation."
+- text: "The cost of a taxi from Jomo Kenyatta International Airport to the city center can vary depending on traffic conditions and your exact destination. On average, it can range from approximately 20 to 40 USD."
+- text: "Tourists often find special deals on airport transfers, especially when booking accommodation packages. It's worth checking with your hotel or travel provider for any available discounts or bundled services."
+- text: "For a typical taxi ride from the airport to the city center, you can expect to pay around 20 to 40 USD. However, prices may vary, so it's a good idea to confirm the fare with the taxi driver before starting your journey."
+- text: "Yes, there are discounts available for airport transportation. Some taxi companies or ride-sharing services may offer promotional codes or loyalty programs that can help you save on your airport transfer."
+
+
+  utter_Airport_Public_Transportation:
+    - text: "The recommended way to travel from Jomo Kenyatta International Airport (JKIA) to downtown Nairobi is by using the airport's public transportation options. There are reliable public buses and shuttle services available for passengers."
+    - text: "Yes, there are public buses that connect the airport to the city center. These buses are a cost-effective way to travel and are used by both locals and tourists. Look for clearly marked bus stops at the airport."
+    - text: "If you're looking for an affordable mode of transportation from the airport to downtown, public buses and shuttle services are excellent choices. They offer a budget-friendly option for travelers."
+    - text: "To get from JKIA to the city using public transport, simply follow the signs at the airport to locate the designated bus stops or shuttle terminals. The staff at the airport can also assist you in finding the right transportation option for your destination."
+
+
+
+utter_Recommended_Airlines:
+- text: "There are several reputable airlines for domestic flights within Kenya. Some of the recommended airlines include Kenya Airways, Safarilink Aviation, Jambojet, and Fly540. These airlines offer various routes and services to cater to your domestic travel needs."
+
+
+utter_Airport_Recommendations:
+- text: "For domestic travel within Kenya, you'll primarily use Jomo Kenyatta International Airport (Nairobi), Moi International Airport (Mombasa), Wilson Airport (Nairobi), and Eldoret International Airport. These airports are well-connected for domestic flights, offering a wide range of options for your travel convenience."
+
+
+utter_Booking_Details:
+- text: "To book domestic flights in advance, you can visit the airline's official website, contact their customer service, or use online travel agencies. Discounts and deals are often available, so keep an eye out for promotions. Baggage allowances vary by airline, so check with your chosen carrier. You can book both one-way and round-trip tickets, and it's essential to arrive at the airport at least two hours before your domestic flight for check-in and security procedures."
+
+
+utter_Taxis_and_Ride-sharing:
+- text: "When it comes to transportation options in Kenya, taxis and ride-sharing services are popular choices. Here are some key points to know:
+
+    1. Availability: Taxis are readily available in major cities like Nairobi and Mombasa. You can easily hail one on the street or use ride-sharing apps like Uber or Bolt.
+
+    2. Ride-sharing Apps: Yes, you can use ride-sharing apps like Uber and Bolt in Kenya. They are a convenient way to book rides in major cities.
+
+    3. Booking: To book a taxi from your hotel to a tourist attraction, you can use a ride-sharing app or ask the hotel staff to arrange one for you.
+
+    4. Fares: Typical taxi fares for short distances in Nairobi can vary, but it's a good idea to ask the driver to use the meter or agree on a fare before starting the trip.
+
+    5. Safety: Taxis are generally safe for tourists in Kenya, but it's recommended to use reputable taxi companies, especially at night, and share your ride details with someone for added security.
+
+    If you have any more specific questions or need assistance with transportation in Kenya, feel free to ask!"
+
+
+
+utter_Long_distance_Travel:
+- text: "For long-distance travel between major cities like Nairobi and Mombasa, you can choose from options like comfortable bus services or trains. Bus services are available for intercity journeys and offer various levels of comfort. Train travel, such as the SGR (Standard Gauge Railway), is an option for some routes and provides a scenic experience. Train tickets can be booked online in advance. The time it takes for long-distance travel can vary depending on the mode of transport and distance. Additionally, there may be overnight bus options for certain routes. Ticket prices vary, so it's advisable to check schedules and prices in advance. Discounts for round-trip long-distance tickets may be available."
+
+
+utter_Safari_Transportation:
+- text: "Getting to various safari destinations in Kenya can be done through multiple transportation options, including domestic flights, safari vans, and tour operators. The best mode of transportation depends on your destination and preferences. Would you like more information about transportation to a specific safari location?"
+
+
+utter_Ferry_services:
+- text: "Ferry services in Kenya connect various coastal destinations and islands. The schedules and availability may vary by location. To provide you with accurate information, could you please specify the route or destination you are interested in?"
 
 
   
