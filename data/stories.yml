@@ -382,3 +382,92 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+
+- story: Transportation options
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Airport_Transportation_Options
+  - action: utter_Airport_Transportation_Options
+
+
+- story:  Hotel_Airport_Transfers
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Hotel_Airport_Transfers
+  - action: utter_Hotel_Airport_Transfers
+
+
+
+
+- story:  Airport_Public_Transportation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Airport_Public_Transportation
+  - action: utter_Airport_Public_Transportation
+
+
+
+
+- story:  Recommended_Airlines
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Recommended_Airlines
+  - action: utter_Recommended_Airlines
+
+
+
+
+- story:  Airport_Recommendations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Airport_Recommendations
+  - action: utter_Airport_Recommendations
+
+
+
+- story:  Booking_Details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Booking_Details
+  - action: utter_Booking_Details
+
+
+
+- story:  Taxis_and_Ride-sharing
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Taxis_and_Ride-sharing
+  - action: utter_Taxis_and_Ride-sharing
+
+
+- story:  Long_distance_Travel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Long_distance_Travel
+  - action: utter_Long_distance_Travel
+
+
+
+- story:  Safari_Transportation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Safari_Transportation
+  - action: utter_Safari_Transportation
+
+
+- story:  Ferry_services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Ferry_services
+  - action: utter_Ferry_services
